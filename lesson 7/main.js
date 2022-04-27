@@ -61,31 +61,61 @@
 
 
 class Home{
-    constructor(height,roof, color, floor, door, room, home,frame, letterbox, closet, window) {
+    constructor(height,length,roof, color, floor, door, room, home,frame, letterbox, closet, window) {
        this.height=height;
+        this.length=length;
         this.roof = roof;
         this.color = color;
         this.door = door;
         this.room = room;
         this.home =home;
         this.frame= frame;
-        this.lettrbox = letterbox;
+        this.letterbox = letterbox;
         this.closet = closet;
         this.window = window;
     }
 }
 
 const home2 = new Home(
-     "15",
-    "triangle",
+   "15",
+    "20",
+    "good",
     "red",
-    "laminat",
+    "laminate",
     "big",
-    "very big",
-    "very very big",
+    "big",
+    "big",
     "square",
-    "litle",
-    "glass",
+    "square",
+    "little",
     "glass",
 )
 console.log(home2)
+
+// class school{
+//     constructor(height,length,book,color,teachers,bord,room,window,flowers,magazine) {
+//     this.heigh =height;
+//     this.lenght=length;
+//     this.book=book;
+//     this.color=color;
+//     this.bord=bord;
+//     this.room=room;
+//     this.window=window;
+//     this.flowers=flowers;
+//     this.magazine=magazine;
+//     }
+// }
+//
+// const school2 = new school(
+//     "15",
+//     "20",
+//     "big",
+//     "yellow",
+//     "good",
+//     "very big",
+//     "so so",
+//     "glass",
+//     "beautiful",
+//     "small"
+// )
+// console.log(school2)
