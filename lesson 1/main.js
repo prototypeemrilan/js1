@@ -46,3 +46,4 @@ if (first_name > last_name) {
 } else {
     alert(first_name + "=" + last_name)
 }
+prompt("Вы кто");
